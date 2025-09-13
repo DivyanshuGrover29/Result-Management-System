@@ -11,7 +11,7 @@ import Students from './components/ManageStudents'
 import Result from './components/ManageResult';
 import StudentResult from './components/StudentsResult';
 import StudentResultSearch from './components/Student';
-import AdminRegister from './components/adminRegister'
+import AdminRegister from './components/AdminRegister'
 
 //setting up react-router-dom
 const appsRouter = createBrowserRouter([
