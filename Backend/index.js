@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://result-management-system-34oc.vercel.app/',
+    origin:'https://result-management-system-34oc.vercel.app',
     method:['GET','POST','PUT','DELETE'],
     credentials:true
 };
